@@ -1,0 +1,26 @@
+{
+    "name": "probotiuk/headless-pro",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "probotiuk",
+        "email": "anatoliy.probotiuk@gmail.com",
+        "homepage": "https://github.com/probotiuk"
+    }],
+    "require": {
+        "php": "^8.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Probotiuk\\HeadlessPro\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Probotiuk\\HeadlessPro\\Providers\\HeadlessProServiceProvider"
+            ]
+        }
+    }
+}
